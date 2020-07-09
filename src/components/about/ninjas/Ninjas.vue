@@ -1,5 +1,6 @@
 <template>
     <div class="ninjas">
+        <slot></slot>
         <ul>
             <li v-for="(ninja, idx) in ninjas"
                 :key="idx"
